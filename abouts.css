@@ -1,0 +1,86 @@
+#about{
+	width:100%;
+	height: 100vh;
+	background-color:#161616;
+	box-sizing: border-box;                          
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  padding: 50px 5% 0px 5%;
+	position: relative;
+  background: black;
+}
+.about-text{
+	font-family: calibri;
+	width: 50%;
+}
+.about-text h1{
+	font-size: 5rem;
+	color:#ecaaec;
+  
+}
+.about-text h2{
+	font-size: 2rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+span{
+  color:#800080 ;
+}
+.about-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+}
+.about-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.about-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
+.about-model .model{
+	height: 100vh;
+  align-items: center;
+}
+.about-model{
+  width: 30%;
+  height: 60%;
+  position: absolute ;
+  bottom: 0;
+  right: 100px;
+  transition: bottom 1s, left 1s;
+  size: 140px;
+  transition: ease-in-out;
+}
+
+.about-model{
+  width: 50%;
+  height: 80%;
+  position: sticky;
+  bottom: 0;
+  right: 1vh;
+	
+}
+.about-model img{
+  height:90%;
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  transform: translateX(-50%); 
+  transition: 0.5s;
+  z-index: 1 ;
+}
+.about-model:hover .me{
+	right: calc(50% - 50px);
+  width: 80px;
+  height: 80px;
+}
